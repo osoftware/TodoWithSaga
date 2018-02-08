@@ -8,7 +8,9 @@ import reducer from './reducers'
 import 'todomvc-app-css/index.css'
 import { tutorialSaga } from './saga';
 
-const store = createStore(reducer);
+const sagaMiddleware = createSagaMiddleware();
+const store = createStore(reducer, applyMiddleware(sagaMiddleware));
+sagaMiddleware.run(tutorialSaga);
 
 render(
   <Provider store={store}>

@@ -11,7 +11,7 @@ const App = (props) => (
   <div>
     <Header addTodo={props.actions.addTodo} tip={props.tip} />
     <MainSection todos={props.todos} actions={props.actions} />
-    {/* <Advice tip={props.tip} /> */}
+    <Advice tip={props.tip} />
   </div>
 )
 
