@@ -8,6 +8,7 @@
     "react-scripts": "^1.0.2"
   },
   "dependencies": {
+    "axios": "^0.17.1",
     "classnames": "^2.2.5",
     "prop-types": "^15.5.10",
     "react": "^15.5.0",
@@ -15,6 +16,7 @@
     "react-redux": "^5.0.5",
     "react-test-renderer": "^15.5.4",
     "redux": "^3.5.2",
+    "redux-saga": "^0.16.0",
     "todomvc-app-css": "^2.1.0"
   },
   "scripts": {

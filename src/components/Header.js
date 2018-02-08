@@ -4,7 +4,8 @@ import TodoTextInput from './TodoTextInput'
 
 export default class Header extends Component {
   static propTypes = {
-    addTodo: PropTypes.func.isRequired
+    addTodo: PropTypes.func.isRequired,
+    tip: PropTypes.string.isRequired
   }
 
   handleSave = text => {
